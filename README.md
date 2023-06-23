@@ -1,4 +1,4 @@
-# ESP32-S2 Buttons and LEDs Project
+# Franzininho
 
 This repository contains a sample project for ESP32-S2 using ESP-IDF framework, demonstrating how to interface buttons and LEDs with the ESP32-S2 microcontroller. The project provides a basic setup for controlling LEDs based on the state of buttons.
 
@@ -21,13 +21,14 @@ To run this project, you will need the following components:
 
 Follow the steps below to get started with the project:
 
-1. Clone the repository: `git clone https://github.com/your-username/esp32s2-buttons-leds.git`
-2. Navigate to the project directory: `cd esp32s2-buttons-leds`
-3. Configure the project: `idf.py menuconfig`
-4. Set up the Wi-Fi credentials, GPIO pins, and other configuration parameters as required.
-5. Build the project: `idf.py build`
-6. Flash the project to your ESP32-S2 board: `idf.py -p /dev/ttyUSB0 flash`
-7. Monitor the project output: `idf.py -p /dev/ttyUSB0 monitor`
+1. Clone the repository: `git clone https://github.com/FelipeAlmeida43/Franzininho.git
+2. Navigate to the project directory: `cd Franzininho
+3. Set the target idf.py set-target esp32s2
+4. Configure the project: `idf.py menuconfig`
+5. Set up the Wi-Fi credentials, GPIO pins, and other configuration parameters as required.
+6. Build the project: `idf.py build`
+7. Flash the project to your ESP32-S2 board: `idf.py -p /dev/ttyUSB0 flash`
+8. Monitor the project output: `idf.py -p /dev/ttyUSB0 monitor`
 
 ## Project Structure
 
